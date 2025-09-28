@@ -133,12 +133,11 @@ int main() {
         }
         nombre /= 2;
     } while (nombre != 0);
-    
+
     printf("%x\n", nombre);
 
     convert decimal to hexa decimal katdar bi array hssan + invers affichage
-    do
-    {
+    do {
         printf("%d", nombre % 16);
         nombre /= 16;
         
